@@ -1,7 +1,46 @@
+/* Fonts */
+@font-face {
+  font-family: "helvetica-lt-pro";
+  src: url(fonts/Helvetica/Helvetica-LT-Pro-Roman.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "helvetica-lt-pro";
+  src: url(fonts/Helvetica/Helvetica-LT-Pro-Oblique.otf) format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "helvetica-lt-pro";
+  src: url(fonts/Helvetica/Helvetica-LT-Pro-Bold.otf) format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "typeka";
+  src: url(fonts/Typeka/Typeka-Reg.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "typeka";
+  src: url(fonts/Typeka/Typeka-Bold.otf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "typeka";
+  src: url(fonts/Typeka/Typeka-Mix.otf) format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
 body{
     background-color: black;
     padding:0;
     margin:0;
+    line-height: 1.2;
 }
 
 .header, .form > form > div, .result > div{
@@ -96,7 +135,8 @@ button:hover, .clickable:hover{
     margin-top: -14rem;
     margin-bottom: 0;
     padding-top: 4rem;
-    height: 65vh;
+    /* height: 65vh; */
+    height: 550px;
     background-image: url('/static/images/BlackTornPaper-Bottom.png');
     background-size:cover;
     background-position: center;
@@ -130,7 +170,7 @@ button:hover, .clickable:hover{
 }
 
 .wordFields > div > label{
-    margin-top: 7px;
+    margin-top: 9px;
     display: block;
     text-align: center;
 }
@@ -138,7 +178,7 @@ button:hover, .clickable:hover{
 .wordFields > div > input, #sep{
     width: 100%;
     height: 2.5rem;
-    font-size: large;
+    font-size: medium;
     padding: .5rem;
 }
 
@@ -179,9 +219,10 @@ button:hover, .clickable:hover{
 
 h1{
     font-family: "typeka", sans-serif;
-    font-weight: 500;
+    font-weight: 900;
     font-style: normal;
-    font-size: 67;
+    /* font-size: 67; */
+    font-size: 49;
     text-transform: uppercase;
 }
 
@@ -194,7 +235,8 @@ h2{
     font-family: "typeka", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 27px;
     text-transform: uppercase;
 }
 
@@ -210,7 +252,8 @@ h3{
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 18px;
     color: white;
     text-transform: uppercase;    
 }
@@ -223,7 +266,8 @@ h4, label{
     font-family: "helvetica-lt-pro", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 15px;
     text-transform: uppercase;
 }
 
@@ -252,7 +296,7 @@ h4{
 
 p{
     font-style: italic;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #mock{
